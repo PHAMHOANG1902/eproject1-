@@ -1,0 +1,467 @@
+/*
+ Theme Name:   Travelo Child
+ Description:  Travelo Child Theme
+ Template:     Travelo
+*/
+body {
+	font-family:'Roboto',Arial;
+	color:#1a1a1a;
+	font-size:14px;
+}
+#main-menu ul.menu>li>a, .chaser ul.menu>li>a{
+	font-size: 14px;
+}
+#header .topnav{
+	background:#da251c;
+}
+.item-hidden{
+	display:none;
+}
+#top-search {
+    float: right;
+    width: 20px;
+    text-align: center;
+	    margin-top: 20px;
+}
+#header .main-header .container{
+	position:relative;
+}
+#top-search .search-click{
+	cursor:pointer;
+}
+.show-search {
+    height: 68px;background: #ffffff;
+	    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    text-align: left;
+    z-index: 100;    display: none;
+}
+.show-search #searchform input.search-input {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    border: 0;
+    position: absolute;
+    top: 0;
+	right:0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    color: #313131;
+    /* height: 58px; */
+    line-height: 28px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: none;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 18px;
+    height: 68px;
+    padding: 26px 30px 26px 30px;
+}
+.footer-col::first-child{
+	
+}
+.footer-col .widgettitle{
+	border-bottom: 2px solid #DA251C;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.footer-col::first-child p{
+	
+}
+.tour-breadcrumb { 
+  list-style: none; 
+  overflow: hidden; 
+  font: 18px Sans-Serif;
+      margin: 0 0 10px;
+}
+.tour-breadcrumb li { 
+      float: left;
+    position: relative;
+    padding-right: 10px;
+}
+.tour-breadcrumb li::after{
+    content: '»';
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 9;
+    color: #111;
+    font-size: 12px;
+}
+.tab-container ul.tabs li.active > a, .tab-container ul.tabs li:hover > a {
+    color: #fff;
+    background: #da251c;
+}
+.tab-container ul.tabs li {
+    padding-right: 0;
+}
+.tab-container ul.tabs li a{
+	    border-right: 0.5px solid #ccc;
+    background: #2D3E52;
+}
+.tour-breadcrumb li:last-child:after{
+	content:none;
+}
+.listing-style3.tour-packages .box-title.box-full-title{
+	display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+}
+.tour-breadcrumb li a {
+  color: #1a1a1a;
+  font-size:13px;
+  text-decoration: none; 
+  padding: 5px;
+  
+  position: relative; 
+  display: block;
+  float: left;
+}
+.single-tour .page-title-container{
+}
+.single-tour section#content{
+	padding-top:20px;
+}
+.price-discount{
+	text-decoration: line-through;
+    font-size: 18px;
+    color: #333333;
+}
+.section {
+    padding-top: 20px;
+}
+#footer h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#footer .bottom p{
+	text-align:center;
+}
+#footer .bottom .logo img{
+	      text-align: center;
+    display: block;
+    margin: 0 auto 10px;
+    opacity: 1;
+}
+.show-search #searchform input.search-input input:focus { 
+     outline: none;
+	 border:none;
+}
+#navigation.header-6 #top-search>a, #navigation.header-6 .show-search a.close-search {
+    height: 80px;
+    line-height: 80px;
+}
+.show-search a.close-search {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    display: inline-block;
+    right: 0;
+    top: 0;
+    z-index: 101;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #313131;
+}
+.header-menu-wrap{
+	float:left;
+}
+.search-box-wrapper{
+	margin-top:0;
+}
+.search-tab-content{
+	    padding: 30px 0 0;
+}
+.search-tab-content *{
+	    font-size: 14px;
+}
+.white-color{
+	color:#fff;
+}
+.nopadding{
+	padding-left:0;
+	padding-right:0;
+}
+.tour-info-right{
+}
+.image-carousel.style1{
+	    margin-top: -100px;
+}
+.short-description-widget{
+	    border: 1px solid #ccc;    margin-right: 30px;
+    padding: 15px;
+}
+.widget .widget-title{
+	color:#DA251C;
+}
+.widget{
+	margin-bottom:30px;
+	
+}
+.amenity-widget{
+	
+	padding:15px;
+}
+.single-tour .ui-datepicker{
+	z-index:1051!important;
+}
+.mg-bot10 {
+    margin-bottom: 10px;
+}
+.fa-stack-2x {
+    font-size: 2em;
+}
+.orange {
+    color: #fc7700;
+}
+.tour-detail-section{
+	background:#fff;
+}
+.tour-info-right-content{
+	    padding: 15px;background: #fff;
+}
+.tour-title{
+	    margin-bottom: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.tour-info-right .olt1 {
+    padding: 0;
+    width: 40%;
+    height: 60px;
+    border: 1px solid #ccc;float:left;
+}
+.tour-info-right .ort1 {
+	float:left;
+    background-color: #DA251C;
+    width: 60%;
+    height: 60px;display: table-cell;
+    line-height: 60px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.tour-info-right .btn-book-now{
+    background-color: #DA251C;
+    /* width: 60%; */
+    /* height: 60px; */
+    line-height: 60px;
+    font-size: 16px;
+    padding: 14px 80px;
+    color: #fff;
+    display: inline;
+	
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+}
+.no-padding-right{
+	padding-right:0;
+}
+.no-padding-left{
+	padding-left:0;
+}
+.tour-info-right .tour-price .pre-price{
+	    font-size: 16px;
+    color: #1a1a1a;
+}
+.hotel-detail-section{
+	background:#fff;
+}
+.amenities li{
+	margin-bottom:5px;
+}
+.tour-info-right .tour-price{
+	    padding: 5px;
+    font-size: 35px;
+    line-height: 1em;
+    color: #DA251C;
+    padding-bottom: 10px;
+}
+.tour-info-right-content .info-frame{
+	      padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.tour-intro-section{
+	background:#fff;
+}
+.tour-left-person{
+	padding:5px;
+}
+.tour-info-right-content .info-frame:last-child{
+	border-bottom: none;
+}
+.listing-style3.tour-packages .box-title{
+	    line-height: 1.3em;
+}
+.listing-style3 .price{
+	
+    font-size: 18px;
+    color: #DA251C;
+}
+.image-box .discount{
+	font-size:12px;
+}
+.sidebar{
+	
+}
+.sidebar.fixed{
+	position:fixed;
+	top:55px;
+}
+.sort-by-section .sort-bar .sort-by-container > span{
+	    text-transform: capitalize;
+}
+.travelo-box .travel-news li:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.travelo-box .travel-news .thumb{
+	float:left;margin-right: 5px;
+}
+h2.section-title{
+	padding-bottom: 30px;
+    text-align: center;
+    display: block;
+    font-family: "Hel_Med",arial;
+    font-size: 24px;
+    position: relative;
+    color: #1a1a1a;
+    text-transform: uppercase;
+	font-weight:bold;
+}
+.tour-packages a.button {
+    margin-top: 6px;
+    background: #DA251C;
+}
+h2.section-title::after {
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 1px;
+    background: #f4511e;
+    content: '';
+    margin-top: 25px;
+}
+.tour-packages.listing-style2 .box .price{
+	color:#DA251C;
+}
+.listing-style2 .box .box-title{
+	line-height: 1.4em;
+    font-size: 16px;
+    font-family: 'Roboto', Arial;
+}
+button:hover, input[type="submit"]:hover{
+	    background: #da251c;
+}
+button, input[type="submit"]{
+	background: #da251c;
+}
+#footer.style5 .bottom{
+	    padding-bottom: 5px;
+}
+.datepicker-wrap:after,.selector span.custom-select:before{
+	background:#da251c;
+}
+.global-map-area .box-title{
+	line-height:1.5em;
+	    font-size: 22px;
+}
+.global-map-area .description p{color:#fff;}
+.listing-style2.hotel .feedback, .listing-style2.cruise .feedback {
+    margin: 5px 0;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 5px;
+    border-bottom: 1px solid #f5f5f5;
+}
+a.button:hover{
+	background:#da251c;
+}
+#header .logo{
+	 margin: 10px 15px 0 15px;
+}
+.home-slider{
+	position:relative;
+}
+.home-slider .search-box-wrapper{
+	position:absolute;
+	z-index:9;
+	bottom:50px;background: none;
+	left:0;
+	right:0;
+}
+.home-slider .search-box-wrapper .search-box {
+    background: rgba(255,255,255,0.16);
+    padding: 20px;
+}
+.icon-check:hover:after{
+	    background-color: inherit;
+}
+.parallax{background-size:cover;}
+.parallax{
+	position:relative;
+}
+.icon-check{
+	    padding-right: 0!important;
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+.icon-check:after {
+       font: normal normal normal 14px/1 FontAwesome;
+    content: "\f002";
+    background: none;
+    transform: translateY(-50%);
+    height: auto;
+    top: 50%;
+    right: inherit;
+    left: 5px;
+}
+
+.box-title, .post-title, .post-meta, .author-section .name, .mile, .title, .s-title, .price, button, a.button, dl, label, span.info, .price-wrapper, ul.tabs a, .icon-box.style1, .icon-box.style2, .icon-box.style3 .description, .icon-box.style5, .search-results-title, .breadcrumbs {
+    letter-spacing: 0;
+}
+.travel-news .date{
+	display:none;
+}
+#header .mobile-menu-toggle{
+	z-index:99;
+}
+#cfacebook{position:fixed;bottom:0px;right:100px}
+@media (max-width: 768px) {
+	.home-slider .search-box-wrapper{
+		position: relative;
+		top: 0;
+		bottom: 0;
+	}
+	.search-box .search-tab-content{
+		padding: 0;
+	}
+	.section{
+		    padding-top: 30px;
+    padding-bottom: 30px;
+	}
+	#footer.style5 > .footer-wrapper > .container:first-child:before{
+		content:none;
+	}
+	#top-search{
+		margin-right:70px;
+	}
+	#header .logo{
+		display:inline-block;
+	}
+}
